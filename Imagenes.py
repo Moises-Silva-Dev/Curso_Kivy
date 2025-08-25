@@ -6,7 +6,7 @@ class Principal(Screen):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
-        self.foto = Image(source = 'Pizza.jpeg', pos_hint = {'center_x': 0.5, 'center_y': 0.5}, allow_stretch = True)
+        self.foto = Image(source = 'logo.jpg', pos_hint = {'center_x': 0.5, 'center_y': 0.5}, allow_stretch = True)
         self.add_widget(self.foto)
 
 class Miapp(MDApp):
